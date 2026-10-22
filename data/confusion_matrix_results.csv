@@ -1,0 +1,7 @@
+Model,Threshold,True_Negatives,False_Positives,False_Negatives,True_Positives,Precision,Recall,F1_Score,False_Positive_Rate,False_Negative_Rate
+Baseline (Persistence),0.5,13828,718,653,2625,0.7852,0.8008,0.7929,0.0494,0.1992
+LightGBM (Thresh=0.3),0.3,13661,885,328,2950,0.7692,0.8999,0.8295,0.0608,0.1001
+LightGBM (Thresh=0.4),0.4,13873,673,432,2846,0.8088,0.8682,0.8374,0.0463,0.1318
+LightGBM (Thresh=0.5),0.5,14009,537,557,2721,0.8352,0.8301,0.8326,0.0369,0.1699
+LightGBM (Thresh=0.6),0.6,14146,400,672,2606,0.8669,0.795,0.8294,0.0275,0.205
+LightGBM (Thresh=0.7),0.7,14247,299,837,2441,0.8909,0.7447,0.8112,0.0206,0.2553

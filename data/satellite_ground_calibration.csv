@@ -1,0 +1,9 @@
+Metric,Value
+Slope,0.9954
+Intercept,0.1747
+Pearson_r,0.9013
+R_squared,0.8124
+p_value,0.0
+Std_Error,0.0016
+RMSE,12.81
+Sample_Count,87019.0
