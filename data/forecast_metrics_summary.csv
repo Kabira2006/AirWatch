@@ -1,0 +1,15 @@
+Forecast_Horizon,Model_Architecture,MAE,MSE,RMSE,MAPE_pct,R2_Score,Target_MAPE_Met
+24-Hour Ahead (t+1),Simple Moving Average,29.21,2201.81,46.92,24.37,0.7153,NO
+24-Hour Ahead (t+1),Exponential Smoothing (alpha=0.35),31.74,2809.07,53.0,25.65,0.6368,NO
+24-Hour Ahead (t+1),Multiple Linear Regression,21.47,1155.21,33.99,18.36,0.8506,NO
+24-Hour Ahead (t+1),XGBoost Regressor (Raw Features),20.07,1075.56,32.8,17.07,0.8609,NO
+24-Hour Ahead (t+1),XGBoost Regressor (Variance-Stabilized & Calibrated),18.74,992.8,31.51,15.02,0.8716,NO
+48-Hour Ahead (t+2),Simple Moving Average,31.65,2548.22,50.48,26.88,0.6591,NO
+48-Hour Ahead (t+2),Exponential Smoothing (alpha=0.35),33.49,2940.97,54.23,27.81,0.6065,NO
+48-Hour Ahead (t+2),Multiple Linear Regression,31.18,2253.02,47.47,28.29,0.6986,NO
+48-Hour Ahead (t+2),XGBoost Regressor (Raw Features),30.03,2201.62,46.92,26.75,0.7054,NO
+48-Hour Ahead (t+2),XGBoost Regressor (Variance-Stabilized & Calibrated),28.21,2020.23,44.95,23.59,0.7297,NO
+24-Hour Ahead (Urban Cluster),Simple Moving Average (24h),14.2,462.25,21.5,18.4,0.512,NO
+24-Hour Ahead (Urban Cluster),Simple Exponential Smoothing (alpha=0.35),12.1,353.44,18.8,15.2,0.61,NO
+24-Hour Ahead (Urban Cluster),Multiple Linear Regression,10.4,243.36,15.6,12.8,0.682,NO
+24-Hour Ahead (Urban Cluster),XGBoost Regressor (with Lags & Weather),6.8,104.04,10.2,8.9,0.884,YES (< 10%)

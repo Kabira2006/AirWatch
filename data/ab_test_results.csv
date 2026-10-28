@@ -1,0 +1,5 @@
+Metric_Category,Metric_Name,Variant_A_Reactive,Variant_B_Proactive,Absolute_Difference,Relative_Uplift_pct,Statistical_Test,Test_Statistic,P_Value,Significant_95pct,CI_95_Range
+Primary Metric,Safety Action Conversion Rate (%),53.92,72.04,18.12,+33.61%,Two-Sample Z-Test,13.268,0.0000e+00,YES (p < 0.05),"[15.49%, 20.75%]"
+Secondary Metric,Advance Warning Lead Time (Hours),0.77,15.12,14.36,+1875.8%,Welch's Two-Sample t-Test,197.711,0.0000e+00,YES (p < 0.05),"[14.21, 14.50]"
+Secondary Metric,Notification Click-Through Rate (CTR %),63.84,78.24,14.4,+22.56%,Two-Sample Z-Test,10.544,< 0.0001,YES (p < 0.05),"[12.30%, 16.50%]"
+Secondary Metric,System Compliance Score (0-100),58.2,79.5,21.3,+36.57%,Welch's Two-Sample t-Test,55.85,0.0000e+00,YES (p < 0.05),"[20.5, 22.1]"
